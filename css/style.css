@@ -85,6 +85,14 @@ h3 {
     margin: 20px;
 }
 
+h4 {
+    font-family: var(--font);
+    font-size: 1.5em;
+    color: var(--cor5);
+    text-indent: 20px;
+    margin: 20px;
+}
+
 main p {
     text-align: justify;
     text-indent: 30px;
