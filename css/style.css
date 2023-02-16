@@ -30,7 +30,7 @@ body {
 }
 
 nav {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
     padding: 15px;
 }
 
@@ -43,14 +43,14 @@ nav > a {
 }
 
 nav > a:hover {
-    color: var(--cor3);
+    color: var(--cor1);
     background-color: white;
     border-radius: 10px;
     transition-duration: 0.5s;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.877);
     min-width: 300px;
     max-width: 900px;
     margin: auto;
@@ -115,4 +115,35 @@ main img {
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+h1.titulos {
+    text-align: center;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+p.titulos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
+    color: white;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: white;
+    font-size: bolder;
+    text-decoration: none;
 }
