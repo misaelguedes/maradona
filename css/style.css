@@ -58,7 +58,31 @@ main {
     margin-top: 4px;
     padding-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.623);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.623);
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    margin: 0px 20px;
+}
+
+main hr {
+    height: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+main img {
+    margin: auto;
+    display: block;
+    width: 400px;
+    min-width: 30vw;
+    max-width: 90vw;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -95,30 +119,6 @@ h4 {
     margin: 20px;
 }
 
-main p {
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 1.5em;
-    margin: 0px 20px;
-}
-
-main hr {
-    height: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-main img {
-    margin: auto;
-    display: block;
-    width: 400px;
-    min-width: 30vw;
-    max-width: 90vw;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 h1.titulos {
     text-align: center;
 }
@@ -148,13 +148,41 @@ div.video > iframe {
     height: 90%;
 }
 
+table {
+    width: 720px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background-color: var(--cor3);
+}
+
+thead th, tfoot th {
+    color: white;
+    background-color: var(--cor4);
+}
+
+td.total {
+    color: white;
+    font-weight: bolder;
+    background-color: var(--cor4);
+}
+
 footer {
     background-image: linear-gradient(to right, var(--cor1), var(--cor3));
     color: white;
     padding: 10px;
     margin-top: 4px;
     text-align: center;
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.623);
+    box-shadow: 5px 5px 0px 5px rgba(0, 0, 0, 0.623);
 }
 
 footer p {
@@ -168,5 +196,9 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: var(--cor3);
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
