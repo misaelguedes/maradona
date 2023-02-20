@@ -163,6 +163,10 @@ th {
     background-color: var(--cor3);
 }
 
+div#tb1, div#tb2 {
+    overflow: auto;
+}
+
 thead th, tfoot th {
     color: white;
     background-color: var(--cor4);
