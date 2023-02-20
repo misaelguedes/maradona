@@ -77,9 +77,7 @@ main hr {
 main img {
     margin: auto;
     display: block;
-    width: 400px;
-    min-width: 30vw;
-    max-width: 90vw;
+    max-width: 400px;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -174,10 +172,6 @@ td.total {
     color: white;
     font-weight: bolder;
     background-color: var(--cor4);
-}
-
-div.tabela {
-    overflow: auto;
 }
 
 footer {

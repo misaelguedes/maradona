@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-position: center;
+}
+
+main img {
+    min-width: 30vw;
+    max-width: 90vw;
+}
+
+table {
+    max-width: 200px;
+}
